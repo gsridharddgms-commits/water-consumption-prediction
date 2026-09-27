@@ -1,0 +1,52 @@
+[
+  {
+    "Model": "Naive Baseline (lag_1)",
+    "MAE": 3879.0071428571428,
+    "RMSE": 7597.194809834182,
+    "R2": -0.9155452633529975,
+    "MAPE": 10433.706620814386,
+    "sMAPE": 132.74282627967074,
+    "Actual_Peak_Mean": 20904.0,
+    "Pred_Peak_Mean": 3079.6,
+    "Peak_Abs_Error": 17824.4,
+    "Peak_Pct_Error": 85.26789131266744
+  },
+  {
+    "Model": "Seasonal Naive (lag_24)",
+    "MAE": 3693.7785714285715,
+    "RMSE": 7611.542507928337,
+    "R2": -0.9227873093922008,
+    "MAPE": 11695.875410398066,
+    "sMAPE": 136.3069633060965,
+    "Actual_Peak_Mean": 20904.0,
+    "Pred_Peak_Mean": 2497.4285714285716,
+    "Peak_Abs_Error": 18406.571428571428,
+    "Peak_Pct_Error": 88.05286753047946
+  },
+  {
+    "Model": "XGBoost Regressor",
+    "MAE": 2543.7735145504134,
+    "RMSE": 5585.449381120509,
+    "R2": -0.03538563075412715,
+    "MAPE": 4608.412719058578,
+    "sMAPE": 166.3069882160718,
+    "Actual_Peak_Mean": 20904.0,
+    "Pred_Peak_Mean": 1236.861083984375,
+    "Peak_Abs_Error": 19667.138916015625,
+    "Peak_Pct_Error": 94.08313679686005,
+    "Peak_Timing_Offset_Hours": 229
+  },
+  {
+    "Model": "PyTorch LSTM Regressor",
+    "MAE": 2256.5849609375,
+    "RMSE": 5927.595802684255,
+    "R2": -0.1603705883026123,
+    "MAPE": 205.7716064453125,
+    "sMAPE": 178.0555877685547,
+    "Actual_Peak_Mean": 20885.734375,
+    "Pred_Peak_Mean": 63.329647064208984,
+    "Peak_Abs_Error": 20822.40472793579,
+    "Peak_Pct_Error": 99.696780367273,
+    "Peak_Timing_Offset_Hours": 366
+  }
+]
